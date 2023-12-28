@@ -11,3 +11,54 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.alice-carousel{
+  height:30vh !important
+}
+
+/* .section1{
+
+  background-image: url("./Components/assets/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top:3rem
+  
+} */
+/* .section2{
+
+  background-image: url("./Components/assets/background.png");
+  background-repeat: no-repeat;
+  background-size: cover
+  
+} */
+
+.footer{
+  background-image: url("./Components/assets/bg2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+
+@media screen and (max-width:900px) {
+    .menu-cont{
+      display: none
+    }
+    .sidebar{
+      width:100vw !important
+    }
+    .banner1, .banner2 {
+      height:25vh !important;
+    }
+    .banner{
+      margin-top:45% !important;
+    }
+    .section1{
+      margin-top: 10% !important;
+    }
+    .logo-menu-cont{
+      width:100% !important;
+    }
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
